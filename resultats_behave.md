@@ -20,4 +20,4 @@ Valider le bon fonctionnement de l'entraînement d'un Pokémon par un Coach IA, 
 
 ## 📸 Capture d’écran de l'exécution
 
-![Résultat Behave](images/resultat_behave.png)
+![Résultat Behave](images/img1.png)
