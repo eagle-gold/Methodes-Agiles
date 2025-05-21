@@ -20,3 +20,9 @@ Given un CoachIA de niveau <niveau> avec la stratégie <strategie>
 And un Pokémon rare nommé <nom> avec une force initiale de <force>
 When le Coach entraîne ce Pokémon
 Then la <forceAttendue> vaut <force> + 15 points
+
+
+Examples:
+| niveau | strategie | nom       | force | forceAttendue |
+| 3      | attaque   | Dracaufeu | 70    | 85            |
+| 4      | vitesse   | Mewtwo    | 80    | 95            |
