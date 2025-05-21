@@ -46,7 +46,7 @@ Scenario Outline: entraînement autorisé si niveau suffisant
 Given un CoachIA de niveau <niveau> avec la stratégie <strategie>
 And un Pokémon rare nommé <nom> avec une force initiale de <force>
 When le Coach entraîne ce Pokémon
-Then la force du Pokémon est augmentée de 15 points
+Then la <forceAttendue> vaut <force> + 15 points
 
 Examples:
 | niveau | strategie | nom       | force | forceAttendue |
