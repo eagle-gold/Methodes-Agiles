@@ -8,7 +8,7 @@ Scenario Outline: entraînement simple du Pokémon
 Given un CoachIA avec une stratégie <strategie> et un niveau <niveau>
 And un Pokémon nommé <nom> avec une force de <force>
 When le Coach entraîne le Pokémon
-Then la force du Pokémon est augmentée de 10 points
+Then <forceAttendue> vaut <force> + 10 points
 
 Examples:
 | strategie | niveau | nom      | force | forceAttendue |
