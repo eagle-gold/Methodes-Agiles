@@ -13,7 +13,7 @@ Then <forceAttendue> vaut <force> + 10 points
 Examples:
 | strategie | niveau | nom      | force | forceAttendue |
 | attaque   | 1      | Pikachu  | 50    | 60            |
-| vitesse   | 2      | Bulbizarre | 30    | 40            |
+| vitesse   | 2      | Bulbizarre | 30  | 40            |
 
 Scenario Outline: refus d'entraînement sans Pokémon
 Given un CoachIA avec une stratégie <strategie> sans Pokémon assigné
@@ -27,7 +27,3 @@ Examples:
 
 
 
-Examples:
-| niveau | strategie | nom       | force | forceAttendue |
-| 3      | attaque   | Dracaufeu | 70    | 85            |
-| 4      | vitesse   | Mewtwo    | 80    | 95            |
